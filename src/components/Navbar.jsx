@@ -5,12 +5,14 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <nav>
-      <div className="w-[1440px] mx-auto  bg-[#081224]">
-        <div className="flex pt-[26px] pb-[26px] justify-between items-center h-[80px] px-[100px]">
-          <div className="flex">
+    <nav className="bg-[#081224] ">
+      <div className="w-[1440px] font-rajdhani mx-auto  ">
+        <div className="flex pt-[26px] pb-[26px] justify-between items-center h-[80px] ">
+          <div className="flex  ">
             <img src="./logo.png" alt="logo" />
-            <h1 className="text-[28px] text-[#FFFFFF]">SPORTS</h1>
+            <h1 className="text-[28px] text-[#FFFFFF] font-bold ml-[12px]">
+              SPORTS
+            </h1>
             <h1 className="text-[28px] text-[#FB5473]">.</h1>
           </div>
           <div>
