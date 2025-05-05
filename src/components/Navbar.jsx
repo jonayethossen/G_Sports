@@ -1,11 +1,11 @@
 import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
 import { IoMdContact } from "react-icons/io";
-import { FaArrowRight } from "react-icons/fa6";
+import { GoArrowRight } from "react-icons/go";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#081224] ">
+    <nav className="bg-[#081224] z-10">
       <div className="w-[1440px] font-rajdhani mx-auto  ">
         <div className="flex pt-[26px] pb-[26px] justify-between items-center h-[80px] ">
           <div className="flex  ">
@@ -38,10 +38,10 @@ const Navbar = () => {
             <FiShoppingCart className=" h-[42px] w-[42px]  text-[#FFFFFF] bg-[rgba(255,255,255,0.2)] p-2 rounded-full " />
             <IoMdContact className=" h-[42px] w-[42px]  text-[#FFFFFF] bg-[rgba(255,255,255,0.2)] p-2 rounded-full " />
             <button className="flex items-center gap-[4px] bg-[#FFFFFF] rounded-tl-2xl rounded-tr-lg rounded-bl-lg rounded-br-2xl px-[32px] py-[12px]">
-              <div className=" text-[#FB5473] text-[20px] font-[500]  rounded-full font-[500]">
+              <div className=" text-[#FB5473] text-[20px] font-semibold   ">
                 Play Now
               </div>
-              <FaArrowRight className="h-[24px] w-[24px] text-[#FB5473] " />
+              <GoArrowRight className="h-[24px] w-[24px] text-[#FB5473] items-center " />
             </button>
           </div>
         </div>
