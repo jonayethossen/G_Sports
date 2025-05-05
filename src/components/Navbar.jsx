@@ -5,7 +5,7 @@ import { GoArrowRight } from "react-icons/go";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#081224] z-10">
+    <nav className="bg-[#081224] relative z-10">
       <div className="w-[1440px] font-rajdhani mx-auto  ">
         <div className="flex pt-[26px] pb-[26px] justify-between items-center h-[80px] ">
           <div className="flex  ">

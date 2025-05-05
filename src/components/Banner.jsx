@@ -2,9 +2,9 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="h-[800px] bg-white -z-10 relative">
-      <div className="w-[1440px]  flex  h-full mx-auto ">
-        <div className="w-2/4 ">
+    <section className="bg-white  ">
+      <div className="w-full max-w-[1440px]  flex h-screen mx-auto ">
+        <div className="w-2/4 reletive z-10">
           <button className="px-[14px] py-[10px] text-lg font-rajdhani font-bold bg-[rgba(34,34,34,0.06)] rounded-[4px] text-[rgba(252,96,112,1)] mt-[150px] ">
             POPULAR NOW
           </button>
@@ -29,16 +29,22 @@ const Banner = () => {
               TRAILER
             </button>
           </div>
-          <div className="flex  mt-[48px]">
-            <img src="./images 1.png" alt="banner" className="  " />
-            <img src="./images 1.png" alt="images 1" className="  " />
-            <img src="./images 1.png" alt="images 1" className="  " />
-            <img src="./images 1.png" alt="images 1" className="  " />
-            <img src="./images 1.png" alt="images 1" className="  " />
-            <img src="./images 1.png" alt="images 1" className="  " />
+          <div className="flex  mt-[48px] items-center ">
+            <img src="./images 1.png" alt="banner" className="  mr-[5px] " />
+            <img src="./ps4 1.png " alt="images 1" className="  mr-[42px] " />
+            <img
+              src="./windows-logo 2.png "
+              alt="images 1"
+              className="mr-[8px]"
+            />
+            <img src="./WINDOWS.png" alt="images 1" className=" mr-[42px]   " />
+            <img src="./s.png" alt="images 1" className="mr-[8px] " />
+            <img src="./XBOXONE.png" alt="images 1" />
           </div>
         </div>
-        <div className="h-full w-2/4 bg-[rgba(255,0,0,1)] blur-[582px] right-20  "></div>
+        <div className="h-full w-2/4    ">
+          <div className="h-[458px] w-[458px] bg-[rgba(255,0,0,1)] blur-[382px] z-0 absolute "></div>
+        </div>
       </div>
     </section>
   );
