@@ -39,7 +39,7 @@ const Banner = () => {
           animate ? "translate-y-0 opacity-100" : "translate-y-[100%] opacity-0"
         }`}
       />
-      <div className="w-full max-w-[1440px]  flex h-screen mx-auto ">
+      <div className="w-full max-w-[1440px]  flex h-[800px] mx-auto ">
         <div className="w-2/4 reletive z-10">
           <button className="px-[14px] py-[10px] text-lg font-rajdhani font-bold bg-[rgba(34,34,34,0.06)] rounded-[4px] text-[rgba(252,96,112,1)] mt-[150px] ">
             POPULAR NOW
