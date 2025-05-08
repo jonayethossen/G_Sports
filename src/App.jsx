@@ -6,6 +6,7 @@ import Carrier_mood from "./components/Carrier_mood";
 import Services_Section from "./components/Services_Section";
 import New_Gameplay from "./components/New_Gameplay";
 import USEFUL_TIPS from "./components/USEFUL_TIPS";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Services_Section />
       <New_Gameplay />
       <USEFUL_TIPS />
+      <Footer />
     </>
   );
 };
