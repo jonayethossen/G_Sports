@@ -2,15 +2,19 @@ import React from "react";
 
 const Services_Section = () => {
   return (
-    <section className="bg-[#FFFFFF] h-[800px] top-[37px] relative">
+    <section className="bg-[#FFFFFF] py-20 px-4 relative">
+      {/* ------------------------------Background Image----------------------------- */}
       <img
-        className="absolute bottom-[300px] left-[40px] "
+        className="absolute bottom-[300px] left-[40px] w-[250px] md:w-auto "
         src="./servic_section.png"
         alt="servic_section"
       />
-      <div className="max-w-[1440px] lg:h-[500px] h-auto flex flex-col lg:flex-row mx-auto rounded-2xl bg-[rgba(34,34,34,0.10)]">
-        <div className="lg:w-3/5 w-full "></div>
-        <div className="lg:w-2/5 w-full px-6 py-8 my-auto">
+      {/* ------------------------------Main Content----------------------------- */}
+
+      <div className="max-w-[1440px] lg:h-[500px] h-auto items-center justify-between overflow-hidden flex flex-col lg:flex-row mx-auto rounded-2xl bg-[rgba(34,34,34,0.10)]">
+        <div className="lg:w-3/5 w-full h-[300px] lg:h-auto "></div>
+        ...................................................
+        <div className="lg:w-2/5 w-full px-6 py-10 z-10">
           <h2 className="font-rajdhani lg:text-xl text-xl font-semibold text-[#FB5473] ">
             REAL PLAYERS
           </h2>
