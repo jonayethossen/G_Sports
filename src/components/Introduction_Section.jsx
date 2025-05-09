@@ -1,65 +1,54 @@
 import React from "react";
-import { LuArrowRight } from "react-icons/lu";
+import { FaArrowRight } from "react-icons/fa6";
+
+const editions = [
+  {
+    title: "Stander Edition",
+    image: "./isection_1.png",
+    title1: "Stander Edition",
+  },
+  {
+    title: "Collector Edition",
+    image: "./isection_2.png",
+    title1: "Stander Edition",
+  },
+  {
+    title: "Deluxe Edition",
+    image: "./isection_3.png",
+    title1: "Stander Edition",
+  },
+  {
+    title: "Ultimate Edition",
+    image: "./isection_4.png",
+    title1: "Stander Edition",
+  },
+];
 
 const Introduction_Section = () => {
   return (
-    <section className=" bg-[#FFFFFF] z-12  relative">
-      <div className="h-[800px]  max-w-[1440px] mx-auto">
-        <h1 className="text-center text-lg text-[#FC6070] font-rajdhani font-bold mt-[120px]">
+    <section className=" bg-[#FFFFFF] z-12  relative py-20">
+      <div className="max-w-[1440px] mx-auto px-4">
+        <h1 className="text-center text-lg text-[#FC6070] font-rajdhani font-bold ">
           CHOOSE YOUR
         </h1>
-        <h1 className="text-center text-6xl font-rajdhani font-bold mt-[20px] text-[#222222]">
+        <h1 className="text-center md:text-6xl text-4xl font-rajdhani font-bold mt-5 text-[#222222]">
           STARTER PACK
         </h1>
-        <div className="flex justify-center items-center mt-[48px] gap-[24px]">
-          <div>
-            <h1 className="text-[#222222] font-xl font-rajdhani font-semibold">
-              Stander Edition
-            </h1>
-            <img src="./isection_1.png" alt="" />
-            <div className="flex items-center justify-center  mt-[18px]">
-              <h1 className=" font-rajdhani font-semibold mr-[8px] font-xl text-[#FB5473]">
-                Stander Edition
-              </h1>
-              <LuArrowRight className=" text-[#FB5473]" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-12">
+          {editions.map((item, idx) => (
+            <div key={idx}>
+              <h3 className="text-[#222222] text-xl font-rajdhani font-semibold mb-3">
+                {item.title}
+              </h3>
+              <img src={item.image} alt={item.title} className="mx-auto" />
+              <div className="flex justify-center items-center mt-4">
+                <span className="font-rajdhani font-semibold text-xl text-[#FB5473] mr-2">
+                  {item.title1}
+                </span>
+                <FaArrowRight className="text-[#FB5473]" />
+              </div>
             </div>
-          </div>
-          <div>
-            <h1 className="text-[#222222] font-xl font-rajdhani font-semibold">
-              Collector Edition
-            </h1>
-            <img src="./isection_2.png" alt="" />
-            <div className="flex items-center justify-center  mt-[18px]">
-              <h1 className=" font-rajdhani font-semibold font-xl mr-[8px] text-[#FB5473]">
-                Stander Edition
-              </h1>
-              <LuArrowRight className=" text-[#FB5473]" />
-            </div>
-          </div>
-          <div>
-            <h1 className="text-[#222222] font-xl font-rajdhani font-semibold">
-              Deluxe Edition
-            </h1>
-            <img src="./isection_3.png" alt="" />
-            <div className="flex items-center justify-center  mt-[18px]">
-              <h1 className=" font-rajdhani font-semibold font-xl mr-[8px] text-[#FB5473]">
-                Stander Edition
-              </h1>
-              <LuArrowRight className=" text-[#FB5473]" />
-            </div>
-          </div>
-          <div>
-            <h1 className="text-[#222222] font-xl font-rajdhani font-semibold">
-              Ultimate Edition
-            </h1>
-            <img src="./isection_4.png" alt="" />
-            <div className="flex items-center justify-center  mt-[18px]">
-              <h1 className=" font-rajdhani font-semibold font-xl mr-[8px] text-[#FB5473]">
-                Stander Edition
-              </h1>
-              <LuArrowRight className=" text-[#FB5473]" />
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
