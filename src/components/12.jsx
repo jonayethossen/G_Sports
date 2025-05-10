@@ -46,16 +46,18 @@ export default ServicesSection;
     src="./servic_section.png"
     alt="servic_section"
   />
+
   <div className="max-w-[1440px] lg:h-[500px] h-auto flex flex-col lg:flex-row mx-auto rounded-2xl bg-[rgba(34,34,34,0.10)]">
     <div className="lg:w-3/5 w-full "></div>
-    <div className="lg:w-2/5 w-full px-6 py-8 my-auto">
+
+    <div className="lg:w-2/5 w-full px-6 py-10 my-auto">
       <h2 className="font-rajdhani lg:text-xl text-xl font-semibold text-[#FB5473] ">
         REAL PLAYERS
       </h2>
       <h1 className="max-w-[382px] lg:text-[40px] text-[32px] font-semibold text-[#222222] mt-2 font-rajdhani">
         BUOLD YOUR DREM TEAM
       </h1>
-      <p className="max-w-[478px] text-lg font-medium text-[rgba(34,34,34,0.60)] mt-4 font-rajdhani">
+      <p className="max-w-[478px] text-lg font-medium text-[rgba(34,34,34,0.60)] mt-4 font-rajdhani ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
