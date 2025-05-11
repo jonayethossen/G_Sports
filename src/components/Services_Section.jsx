@@ -2,7 +2,7 @@ import React from "react";
 
 const Services_Section = () => {
   return (
-    <section className="bg-[#FFFFFF] py-60 px-4 relative">
+    <section className="bg-[#FFFFFF] py-40 px-4 relative">
       {/* ------------------------------Background Image----------------------------- */}
       {/* <img
         className="absolute  w-[250px] md:w-auto "
@@ -20,7 +20,7 @@ const Services_Section = () => {
         /> */}
         <div className="lg:w-3/5 w-full h-[300px] lg:h-auto ">
           <img
-            className="absolute  w-[250px] md:w-auto bottom-[25%] left-[1%] "
+            className="absolute  w-[250px] md:w-auto bottom-[19%] left-0 "
             src="./servic_section.png"
             alt="servic_section"
           />

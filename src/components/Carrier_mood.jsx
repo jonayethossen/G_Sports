@@ -5,7 +5,7 @@ const Carrier_mood = () => {
     <section className="bg-[#F2F3F5] py-20 ">
       <div className=" max-w-[1440px] flex flex-col lg:flex-row px-4 gap-10 items-center justify-center mx-auto">
         {/* ------------------------------left text section---------------------------------- */}
-        <div className="w-full lg:w-1/2 ">
+        <div className="w-full lg:w-1/2 mr-[155px] ">
           <h1 className="text-[#222222] md:text-6xl text-4xl font-rajdhani font-bold">
             CARRER MODE
           </h1>

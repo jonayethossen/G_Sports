@@ -2,34 +2,35 @@ import React from "react";
 
 const New_Gameplay = () => {
   return (
-    <section className="bg-[#FFFFFF] mt-[-255px] z-10 relative">
-      <div className="h-[800px] max-w-[1440px] flex items-center justify-center mx-auto">
-        <div className="w-3/5">
-          <div className=" w-[700px] h-[464px] p-[20px] relative z-10">
-            <img
-              className="absolute top-0 right-0 -z-5 "
-              src="carrier_shape.png"
-              alt="carrier_shape"
-            />
-            <img
-              className=" rounded-3xl  mx-auto my-auto "
-              src="./carrier_banner.png"
-              alt="carrier_banner"
-            />
-            <img
-              className="absolute -z-4 left-0 bottom-0"
-              src="carrier_shape.png"
-              alt="carrier_shape"
-            />
-          </div>
+    <section className="bg-[#F2F3F5] py-20 ">
+      <div className="max-w-[1440px] flex flex-col lg:flex-row px-4 gap-10 items-center justify-center mx-auto">
+        {/* ------------------------------------left image section---------------------------------- */}
+        <div className=" lg:w-[700px] w-full h-auto relative p-5 z-10">
+          <img
+            className="absolute top-0 right-0 -z-5 "
+            src="carrier_shape.png"
+            alt="carrier_shape"
+          />
+          <img
+            className=" rounded-3xl "
+            src="./carrier_banner.png"
+            alt="carrier_banner"
+          />
+          <img
+            className="absolute -z-4 left-0 bottom-0"
+            src="carrier_shape.png"
+            alt="carrier_shape"
+          />
         </div>
-        <div className="w-2/5 ">
-          <h1 className="text-[#222222] text-6xl font-rajdhani font-bold  mt-[6px] ">
+
+        {/* ----------------------------------right text section----------------------------------  */}
+        <div className="w-full lg:w-1/2 ml-[155px]">
+          <h1 className="text-[#222222] md:text-6xl text-4xl font-rajdhani font-bold ">
             NEW GAMEPLAY
           </h1>
-          <div className="h-[3px] w-[412px] bg-[rgba(252,96,112,1)]  "></div>
+          <div className="h-[3px] w-[412px] bg-[rgba(252,96,112,1)] mt-2  "></div>
           <div className="h-[10px] w-[244px] rounded-br-[12px] bg-[rgba(252,96,112,1)] "></div>
-          <p className="text-[rgba(34,34,34,0.60)] text-lg font-rajdhani font-medium  mt-[25px] w-[586px] h-[140px] ">
+          <p className="text-[rgba(34,34,34,0.60)] md:text-lg text-base  font-rajdhani font-medium  mt-6 max-w-[586px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -37,9 +38,9 @@ const New_Gameplay = () => {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
           </p>
-          <div className="flex items-center mt-[24px] ">
+          <div className="flex items-center mt-6 ">
             <img
-              className="mr-[6px] h-[20px] w-[20px]"
+              className="mr-[6px] h-5 w-5"
               src="./Frame_1.png"
               alt="Frame_1"
             />
